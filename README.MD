@@ -1,2 +1,2 @@
 # HTTP
-still didnt write the read me yet, maybe next time?
+hi i didnt write the read me yet, maybe next time?
