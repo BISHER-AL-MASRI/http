@@ -3,6 +3,8 @@ use std::{
     thread,
 };
 
+pub mod readfolder;
+
 pub struct ThreadPool {
     workers: Vec<Worker>,
     sender: Option<mpsc::Sender<Job>>,
