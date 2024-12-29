@@ -3,7 +3,9 @@ use std::{
     thread,
 };
 
+pub mod html;
 pub mod readfolder;
+pub mod static_files;
 
 pub struct ThreadPool {
     workers: Vec<Worker>,
